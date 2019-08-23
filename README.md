@@ -44,9 +44,9 @@ You can now start updating files in your client to begin working on your own pro
 
 ## Features
 
-* React 16
 * Webpack 4 conveniently bundles your code for you.
 * Babel lets you use ES6/7 features.
+* ESLint helps you maintain a high level of code quality.
 
 ## Code Structure
 
@@ -77,13 +77,14 @@ This is based on atomic design. Learn more about [atomic design](http://bradfros
 
 ## Todo
 
-[ ] Implement Testing Suite
-[ ] Add Redux
-[ ] Hot Reloading
+* Implement Testing Suite
+* Add Redux
+* Add Counter App
+* Hot Reloading
 
 ## Technologies
 
-[Node GUI](https://nodegui.github.io/nodegui/) -
+[Node GUI](https://nodegui.github.io/nodegui/) - Desktop GUI Framework
 
 [React](https://facebook.github.io/react/) - View Library
 
