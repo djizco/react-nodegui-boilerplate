@@ -1,0 +1,70 @@
+{
+  "name": "react-nodegui-boilerplate",
+  "version": "0.0.1",
+  "description": "React NodeGUI Boilerplate",
+  "main": "app/index.js",
+  "scripts": {
+    "build": "./scripts/build-prod",
+    "build:dev": "./scripts/build-dev",
+    "start": "./scripts/start",
+    "debug": "./scripts/debug",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djizco/react-nodegui-boilerplate.git"
+  },
+  "author": {
+    "name": "Rico Rojas",
+    "email": "djizco@yahoo.com",
+    "url": "https://github.com/djizco"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djizco/react-nodegui-boilerplate/issues"
+  },
+  "keywords": [
+    "nodegui",
+    "react",
+    "webpack",
+    "ramda",
+    "date-fns",
+    "eslint"
+  ],
+  "homepage": "https://github.com/djizco/react-nodegui-boilerplate#readme",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.1.5",
+    "@nodegui/react-nodegui": "^0.1.5",
+    "date-fns": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.26.1",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "2.0.1",
+    "file-loader": "^4.2.0",
+    "image-webpack-loader": "^5.0.0",
+    "node-loader": "^0.6.0",
+    "webpack": "^4.39.2",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.7"
+  }
+}
