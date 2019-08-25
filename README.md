@@ -11,19 +11,22 @@ npm install
 #### for Development
 
 ```bash
+npm run dev
+# new window
 npm run start
 ```
 
 #### for Production
 
 ```bash
-npm run build:prod
+npm run build
 ```
 
 #### Other Commands
 
 ```bash
-npm run build:prod
+npm run debug
+npm run build:dev
 npm run lint
 npm run lint:fix
 ```
@@ -80,6 +83,7 @@ This is based on atomic design. Learn more about [atomic design](http://bradfros
 * Implement Testing Suite
 * Add Redux
 * Add Counter App
+* Deployment
 * Hot Reloading
 
 ## Technologies

@@ -17,6 +17,24 @@ module.exports = {
   node: {
     __dirname: false,
   },
+  resolve: {
+    alias: {
+      _assets: resolve('app/assets/'),
+      _utils: resolve('app/utils/'),
+      _hooks: resolve('app/hooks/'),
+      _atoms: resolve('app/components/atoms/'),
+      _molecules: resolve('app/components/molecules/'),
+      _organisms: resolve('app/components/organisms/'),
+      _templates: resolve('app/components/templates/'),
+      _pages: resolve('app/components/pages/'),
+      _environment: resolve('app/components/environment/'),
+      _store: resolve('app/store/'),
+      _actions: resolve('app/store/actions/'),
+      _thunks: resolve('app/store/thunks/'),
+      _reducers: resolve('app/store/reducers/'),
+    },
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       {
@@ -54,24 +72,6 @@ module.exports = {
         use: [{ loader: 'node-loader' }, { loader: 'file-loader' }],
       },
     ],
-  },
-  resolve: {
-    alias: {
-      _assets: resolve('app/assets/'),
-      _utils: resolve('app/utils/'),
-      _hooks: resolve('app/hooks/'),
-      _atoms: resolve('app/components/atoms/'),
-      _molecules: resolve('app/components/molecules/'),
-      _organisms: resolve('app/components/organisms/'),
-      _templates: resolve('app/components/templates/'),
-      _pages: resolve('app/components/pages/'),
-      _environment: resolve('app/components/environment/'),
-      _store: resolve('app/store/'),
-      _actions: resolve('app/store/actions/'),
-      _thunks: resolve('app/store/thunks/'),
-      _reducers: resolve('app/store/reducers/'),
-    },
-    extensions: ['.js', '.jsx'],
   },
   plugins: [
     CleanWebpackPluginConfig,
