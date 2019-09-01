@@ -1,6 +1,6 @@
 {
   "name": "react-nodegui-boilerplate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "React NodeGUI Boilerplate",
   "main": "app/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "keywords": [
     "nodegui",
     "react",
+    "redux",
     "webpack",
     "ramda",
     "date-fns",

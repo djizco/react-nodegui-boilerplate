@@ -81,8 +81,6 @@ This is based on atomic design. Learn more about [atomic design](http://bradfros
 ## Todo
 
 * Implement Testing Suite
-* Add Redux
-* Add Counter App
 * Deployment
 * Hot Reloading
 
@@ -91,6 +89,8 @@ This is based on atomic design. Learn more about [atomic design](http://bradfros
 [Node GUI](https://nodegui.github.io/nodegui/) - Desktop GUI Framework
 
 [React](https://facebook.github.io/react/) - View Library
+
+[Redux](http://redux.js.org/) - State Manager
 
 [Webpack](https://webpack.github.io/) - Module Bundler
 
