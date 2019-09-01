@@ -1,15 +1,14 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import { Button, useEventHandler } from '@nodegui/react-nodegui';
 import { QPushButtonEvents } from '@nodegui/nodegui';
+
+import store from '_store';
 
 import { increment } from '_actions/counter';
 
 export default function IncrementButton() {
-  const dispatch = useDispatch();
-
   const btnHandler = useEventHandler(
-    { [QPushButtonEvents.clicked]: () => dispatch(increment()) },
+    { [QPushButtonEvents.clicked]: () => store.dispatch(increment()) },
     [],
   );
 

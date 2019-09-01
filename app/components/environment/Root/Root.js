@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Provider } from 'react-redux';
 import { Window } from '@nodegui/react-nodegui';
 
 import Main from '_environment/Main';
@@ -25,9 +24,7 @@ const styleSheet = `
 export default function Root({ store }) {
   return (
     <Window minSize={fixedSize} maxSize={fixedSize} styleSheet={styleSheet}>
-      <Provider store={store}>
-        <Main />
-      </Provider>
+      <Main />
     </Window>
   );
 }
