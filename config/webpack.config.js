@@ -33,7 +33,7 @@ module.exports = {
       _thunks: resolve('app/store/thunks/'),
       _reducers: resolve('app/store/reducers/'),
     },
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
   module: {
     rules: [
@@ -41,6 +41,11 @@ module.exports = {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         include: [resolve('app')],
+      },
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
       },
       {
         test: /\.(jpe?g|png|gif)$/i,
