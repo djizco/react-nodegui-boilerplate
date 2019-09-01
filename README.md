@@ -90,8 +90,6 @@ This is based on atomic design. Learn more about [atomic design](http://bradfros
 
 [React](https://facebook.github.io/react/) - View Library
 
-[Redux](http://redux.js.org/) - State Manager
-
 [Webpack](https://webpack.github.io/) - Module Bundler
 
 [Ramda](http://ramdajs.com/) - Functional Library

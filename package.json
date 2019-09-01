@@ -28,7 +28,6 @@
   "keywords": [
     "nodegui",
     "react",
-    "redux",
     "webpack",
     "ramda",
     "date-fns",

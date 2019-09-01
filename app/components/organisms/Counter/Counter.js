@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text } from '@nodegui/react-nodegui';
 
 import store from '_store';
@@ -9,12 +9,17 @@ import DecrementButton from '_atoms/DecrementButton';
 export default function CounterSection() {
   const [counter, setCounter] = useState(store.getState().counter);
 
-  store.subscribe(() => {
-    const nextCounter = store.getState().counter;
-    if (counter !== nextCounter) {
-      setCounter(nextCounter);
-    }
-  });
+  useEffect(() => {
+    const unsubscribe = store.subscribe(() => {
+      const nextCounter = store.getState().counter;
+      if (counter !== nextCounter) {
+        setCounter(nextCounter);
+      }
+    });
+
+    return unsubscribe;
+  }, []);
+
 
   return (
     <View>
