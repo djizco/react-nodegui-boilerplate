@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { Provider } from 'react-redux';
 import { Window } from '@nodegui/react-nodegui';
 
 import Main from '_environment/Main';
@@ -10,22 +12,26 @@ const styleSheet = `
     flex-direction: column;
     min-height: '100%';
     align-items: 'center';
-    justify-content: 'start';
-    background-color: black;
+    align-content: 'center';
   }
   #btn {
     font-size: 20px;
   }
-  #result {
-    font-size: 12px;
-    color: white;
+  #text {
+    min-width: 60px;
   }
 `;
 
-export default function Root() {
+export default function Root({ store }) {
   return (
     <Window minSize={fixedSize} maxSize={fixedSize} styleSheet={styleSheet}>
-      <Main />
+      <Provider store={store}>
+        <Main />
+      </Provider>
     </Window>
   );
 }
+
+Root.propTypes = {
+  store: PropTypes.object.isRequired,
+};
