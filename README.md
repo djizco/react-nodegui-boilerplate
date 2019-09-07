@@ -56,7 +56,7 @@ You can now start updating files in your client to begin working on your own pro
 
 * For typescript support, merge the typescript-support branch.
 * React-Redux requires React-DOM for certain things.  If you don't
-  want to use this package, you canmerge the no-react-redux branch.
+  want to use this package, you can merge the no-react-redux branch.
 
 ## Code Structure
 
