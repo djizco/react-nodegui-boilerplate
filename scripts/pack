@@ -1,0 +1,3 @@
+npm run build
+npx nodegui-packer --init App
+npx nodegui-packer --pack ./dist

@@ -1,11 +1,12 @@
 {
   "name": "react-nodegui-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React NodeGUI Boilerplate",
   "main": "app/index.js",
   "scripts": {
     "build": "./scripts/build-prod",
     "build:dev": "./scripts/build-dev",
+    "pack": "./scripts/pack",
     "dev": "./scripts/watch-dev",
     "start": "./scripts/start",
     "debug": "./scripts/debug",
@@ -39,9 +40,9 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@nodegui/nodegui": "^0.1.7",
-    "@nodegui/react-nodegui": "^0.1.5",
-    "date-fns": "^2.0.1",
+    "@nodegui/nodegui": "^0.1.8",
+    "@nodegui/react-nodegui": "^0.1.6",
+    "date-fns": "^2.1.0",
     "prop-types": "^15.7.2",
     "ramda": "^0.26.1",
     "react": "^16.9.0",
@@ -50,10 +51,11 @@
     "redux": "^4.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
+    "@nodegui/packer": "^1.1.2",
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
@@ -66,10 +68,10 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "^4.2.0",
-    "image-webpack-loader": "^5.0.0",
+    "image-webpack-loader": "^6.0.0",
     "node-loader": "^0.6.0",
     "webpack": "^4.39.3",
     "webpack-bundle-analyzer": "^3.4.1",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.8"
   }
 }
