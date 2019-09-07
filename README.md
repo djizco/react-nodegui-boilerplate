@@ -19,13 +19,14 @@ npm run start
 #### for Production
 
 ```bash
-npm run build
+npm run pack
 ```
 
 #### Other Commands
 
 ```bash
 npm run debug
+npm run build
 npm run build:dev
 npm run lint
 npm run lint:fix
@@ -50,6 +51,12 @@ You can now start updating files in your client to begin working on your own pro
 * Webpack 4 conveniently bundles your code for you.
 * Babel lets you use ES6/7 features.
 * ESLint helps you maintain a high level of code quality.
+
+## Notes
+
+* For typescript support, merge the typescript-support branch.
+* React-Redux requires React-DOM for certain things.  If you don't
+  want to use this package, you canmerge the no-react-redux branch.
 
 ## Code Structure
 
@@ -81,8 +88,6 @@ This is based on atomic design. Learn more about [atomic design](http://bradfros
 ## Todo
 
 * Implement Testing Suite
-* Deployment
-* Hot Reloading
 
 ## Technologies
 
