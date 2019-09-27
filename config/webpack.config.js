@@ -19,6 +19,7 @@ module.exports = {
   },
   resolve: {
     alias: {
+      _app: resolve('app'),
       _assets: resolve('app/assets/'),
       _utils: resolve('app/utils/'),
       _hooks: resolve('app/hooks/'),
@@ -30,8 +31,8 @@ module.exports = {
       _environment: resolve('app/components/environment/'),
       _store: resolve('app/store/'),
       _actions: resolve('app/store/actions/'),
-      _thunks: resolve('app/store/thunks/'),
       _reducers: resolve('app/store/reducers/'),
+      _thunks: resolve('app/store/thunks/'),
     },
     extensions: ['.js', '.jsx'],
   },

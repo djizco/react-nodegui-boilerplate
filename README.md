@@ -5,6 +5,7 @@
 #### Setup
 
 ```bash
+brew install cmake # or download from https://cmake.org/download/
 npm install
 ```
 
