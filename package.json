@@ -1,7 +1,7 @@
 {
   "name": "react-nodegui-boilerplate",
   "version": "0.1.2",
-  "description": "React NodeGUI Boilerplate",
+  "description": "React NodeGui Boilerplate",
   "main": "app/index.js",
   "scripts": {
     "build": "./scripts/build-prod",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/djizco/react-nodegui-boilerplate.git"
   },
   "author": {
-    "name": "Rico Rojas",
+    "name": "Federico Rojas",
     "email": "djizco@yahoo.com",
     "url": "https://github.com/djizco"
   },

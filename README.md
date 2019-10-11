@@ -1,4 +1,4 @@
-# React NodeGUI Boilerplate
+# React NodeGui Boilerplate
 
 ## Quick Start
 
@@ -86,13 +86,9 @@ Environment > Pages > Templates > Organisms > Molecules > Atoms
 
 This is based on atomic design. Learn more about [atomic design](http://bradfrost.com/blog/post/atomic-web-design/).
 
-## Todo
-
-* Implement Testing Suite
-
 ## Technologies
 
-[Node GUI](https://nodegui.github.io/nodegui/) - Desktop GUI Framework
+[NodeGui](https://nodegui.github.io/nodegui/) - Desktop GUI Framework
 
 [React](https://facebook.github.io/react/) - View Library
 
